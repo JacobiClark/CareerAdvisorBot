@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
-	<category>
-        <pattern>HI</pattern>
-        <template>Hello, world!</template>
-    </category>
 
+    <!-- MAIN MENU -->
+    
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hey there! All live chat advisors are unfortunately unavailable, but I would love to help you out in the meantime!
+            If you wouldn't mind a bot helping you out, please select from the following options I can help you with.
+            <button>
+                <text>Career Direction</text>
+                <postback>CAREERDIRECTION</postback>
+            </button>
+            <button>
+                <text>Interview Help</text>
+                <postback>INTERVIEWHELP</postback>
+            </button>
+        </template>
+    </category>
 </aiml>

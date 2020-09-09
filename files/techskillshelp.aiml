@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+	<!-- TECH SKILLS HELP -->
+	
+	<category>
+	    <pattern>TECHSKILLSHELP</pattern>
+	    <template>
+	        Right, you'd like to brush up on your tech skills. Please check out 
+	        the following links geared to freshen up your technical abilities.
+            <button>
+                <text>Soft Skills</text>
+                <url>SOFTSKILLHELP</url>
+            </button>
+            <button>
+                <text>Technical Skills</text>
+                <url>TECHSKILLSHELP</url>
+            </button>
+	    </template>
+    </category>
+</aiml>

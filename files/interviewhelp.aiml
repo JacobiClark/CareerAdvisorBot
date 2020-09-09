@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+	<!-- INTERVIEW HELP -->
+	
+	<category>
+	    <pattern>INTERVIEWHELP</pattern>
+	    <template>
+	        Ah, interview help. You've come to just the right place. Please choose from the following topics
+	        that you would like help with.
+            <button>
+                <text>Soft Skills</text>
+                <postback>SOFTSKILLHELP</postback>
+            </button>
+            <button>
+                <text>Technical Skills</text>
+                <postback>TECHSKILLSHELP</postback>
+            </button>
+	    </template>
+    </category>
+</aiml>

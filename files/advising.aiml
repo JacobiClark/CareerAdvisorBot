@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>ADVISING</pattern>
+	    <template>
+            Welcome to the 
+            <reply>
+                <text></text>
+                <postback></postback>
+            </reply>
+	        <button>
+	            <text>📝 Take Career Path Quiz!</text>
+	            <postback>QUIZ</postback>
+            </button>
+            
+            <button>
+                <text>🤔 See Career Path Options</text>
+                <postback>OPTIONS</postback>
+            </button>
+            
+            <button>
+                <text>👔 Interview Advice</text>
+                <postback>INTERVIEW</postback>
+            </button>
+            
+            <button>
+                <text>👥 Schedule an Appointment</text>
+                <postback>APPOINTMENT</postback>
+            </button>
+	    </template>
+    </category>
+</aiml>
